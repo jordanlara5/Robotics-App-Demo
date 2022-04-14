@@ -7,6 +7,13 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1789DE34246B0DEE00F41530 /* OsirisView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1789DE33246B0DEE00F41530 /* OsirisView.swift */; };
+		1789DE36246B1A8400F41530 /* MegaView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1789DE35246B1A8400F41530 /* MegaView.swift */; };
+		178F0BA12807C632008D3933 /* JordanView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 178F0BA02807C632008D3933 /* JordanView.swift */; };
+		178F0BA328082A2A008D3933 /* KalebView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 178F0BA228082A2A008D3933 /* KalebView.swift */; };
+		178F0BA528082A6E008D3933 /* JoeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 178F0BA428082A6E008D3933 /* JoeView.swift */; };
+		178F0BA728082A83008D3933 /* BryanView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 178F0BA628082A83008D3933 /* BryanView.swift */; };
+		178F0BA928082A9B008D3933 /* MarcView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 178F0BA828082A9B008D3933 /* MarcView.swift */; };
 		17AB30572462883800B1537B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17AB30562462883800B1537B /* AppDelegate.swift */; };
 		17AB30592462883800B1537B /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17AB30582462883800B1537B /* SceneDelegate.swift */; };
 		17AB305B2462883800B1537B /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17AB305A2462883800B1537B /* ContentView.swift */; };
@@ -35,7 +42,14 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		17AB30532462883800B1537B /* yig.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = yig.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1789DE33246B0DEE00F41530 /* OsirisView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OsirisView.swift; sourceTree = "<group>"; };
+		1789DE35246B1A8400F41530 /* MegaView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MegaView.swift; sourceTree = "<group>"; };
+		178F0BA02807C632008D3933 /* JordanView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JordanView.swift; sourceTree = "<group>"; };
+		178F0BA228082A2A008D3933 /* KalebView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KalebView.swift; sourceTree = "<group>"; };
+		178F0BA428082A6E008D3933 /* JoeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JoeView.swift; sourceTree = "<group>"; };
+		178F0BA628082A83008D3933 /* BryanView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BryanView.swift; sourceTree = "<group>"; };
+		178F0BA828082A9B008D3933 /* MarcView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MarcView.swift; sourceTree = "<group>"; };
+		17AB30532462883800B1537B /* MHSR.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MHSR.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		17AB30562462883800B1537B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		17AB30582462883800B1537B /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		17AB305A2462883800B1537B /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -89,7 +103,7 @@
 		17AB30542462883800B1537B /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				17AB30532462883800B1537B /* yig.app */,
+				17AB30532462883800B1537B /* MHSR.app */,
 				17AB30692462883A00B1537B /* yigTests.xctest */,
 				17AB30742462883A00B1537B /* yigUITests.xctest */,
 			);
@@ -106,6 +120,13 @@
 				17AB30612462883900B1537B /* LaunchScreen.storyboard */,
 				17AB30642462883900B1537B /* Info.plist */,
 				17AB305E2462883900B1537B /* Preview Content */,
+				1789DE33246B0DEE00F41530 /* OsirisView.swift */,
+				1789DE35246B1A8400F41530 /* MegaView.swift */,
+				178F0BA02807C632008D3933 /* JordanView.swift */,
+				178F0BA228082A2A008D3933 /* KalebView.swift */,
+				178F0BA428082A6E008D3933 /* JoeView.swift */,
+				178F0BA628082A83008D3933 /* BryanView.swift */,
+				178F0BA828082A9B008D3933 /* MarcView.swift */,
 			);
 			path = yig;
 			sourceTree = "<group>";
@@ -153,7 +174,7 @@
 			);
 			name = yig;
 			productName = yig;
-			productReference = 17AB30532462883800B1537B /* yig.app */;
+			productReference = 17AB30532462883800B1537B /* MHSR.app */;
 			productType = "com.apple.product-type.application";
 		};
 		17AB30682462883A00B1537B /* yigTests */ = {
@@ -267,9 +288,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				178F0BA12807C632008D3933 /* JordanView.swift in Sources */,
+				178F0BA928082A9B008D3933 /* MarcView.swift in Sources */,
+				178F0BA528082A6E008D3933 /* JoeView.swift in Sources */,
 				17AB30572462883800B1537B /* AppDelegate.swift in Sources */,
 				17AB30592462883800B1537B /* SceneDelegate.swift in Sources */,
+				178F0BA328082A2A008D3933 /* KalebView.swift in Sources */,
+				1789DE36246B1A8400F41530 /* MegaView.swift in Sources */,
 				17AB305B2462883800B1537B /* ContentView.swift in Sources */,
+				1789DE34246B0DEE00F41530 /* OsirisView.swift in Sources */,
+				178F0BA728082A83008D3933 /* BryanView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -443,8 +471,8 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = Osiris.yig;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_BUNDLE_IDENTIFIER = yig;
+				PRODUCT_NAME = MHSR;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -463,8 +491,8 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = Osiris.yig;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_BUNDLE_IDENTIFIER = yig;
+				PRODUCT_NAME = MHSR;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
